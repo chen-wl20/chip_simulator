@@ -1,0 +1,114 @@
+﻿  core_controller.cpp
+C:\Users\14900\Desktop\1\chip_simulator\libs\systemc-2.3.3\src\sysc\packages\boost\utility\string_view.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Unknown compiler version - please run the configure tests and report the results
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\FetchUnit.h(36,29): warning C4244: “参数”: 从“sc_dt::int_type”转换到“unsigned int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\FetchUnit.h(39,27): warning C4244: “参数”: 从“sc_dt::int_type”转换到“unsigned int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CMemristor.h(19,41): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CMemristor.h(19,36): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CMemristor.h(30,52): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CMemristor.h(30,28): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CMemristor.h(33,58): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CMemristor.h(33,29): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CMemristor.h(34,31): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CMemristor.h(34,29): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CMemristor.h(40,20): warning C4244: “初始化”: 从“time_t”转换到“int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CMemristor.h(50,51): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CMemristor.h(50,28): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CMemristor.h(326,61): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\ram.h(84,1): warning C4305: “+=”: 从“const double”到“float”截断
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\ram.h(69): message : 在编译 类 模板 成员函数“transfer_status ram<sc_dt::sc_bv<256>>::write(unsigned int,T &)”时
+          with
+          [
+              T=sc_dt::sc_bv<256>
+          ]
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\Cmem_controller.h(36): message : 查看对正在编译的函数 模板 实例化“transfer_status ram<sc_dt::sc_bv<256>>::write(unsigned int,T &)”的引用
+          with
+          [
+              T=sc_dt::sc_bv<256>
+          ]
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\core_controller.cpp(47): message : 查看对正在编译的 类 模板 实例化“ram<sc_dt::sc_bv<256>>”的引用
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\ram.h(64,1): warning C4305: “+=”: 从“const double”到“float”截断
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\ram.h(48): message : 在编译 类 模板 成员函数“transfer_status ram<sc_dt::sc_bv<256>>::read(unsigned int,T &)”时
+          with
+          [
+              T=sc_dt::sc_bv<256>
+          ]
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\Cmem_controller.h(32): message : 查看对正在编译的函数 模板 实例化“transfer_status ram<sc_dt::sc_bv<256>>::read(unsigned int,T &)”的引用
+          with
+          [
+              T=sc_dt::sc_bv<256>
+          ]
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\ram.h(37,81): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\ram.h(28): message : 在编译 类 模板 成员函数“ram<sc_dt::sc_bv<256>>::ram(sc_core::sc_module_name,unsigned int,unsigned int,sc_core::sc_event *,Trace_event_queue *)”时
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\core_controller.cpp(47): message : 查看对正在编译的函数 模板 实例化“ram<sc_dt::sc_bv<256>>::ram(sc_core::sc_module_name,unsigned int,unsigned int,sc_core::sc_event *,Trace_event_queue *)”的引用
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\dram.h(145,1): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\dram.h(125): message : 在编译 类 模板 成员函数“transfer_status dram<sc_dt::sc_bv<256>>::burst_write(unsigned int,unsigned int,T *&)”时
+          with
+          [
+              T=sc_dt::sc_bv<256>
+          ]
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\core_controller.cpp(46): message : 查看对正在编译的 类 模板 实例化“dram<sc_dt::sc_bv<256>>”的引用
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\dram.h(119,1): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\dram.h(99): message : 在编译 类 模板 成员函数“transfer_status dram<sc_dt::sc_bv<256>>::burst_read(unsigned int,unsigned int,T *&)”时
+          with
+          [
+              T=sc_dt::sc_bv<256>
+          ]
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\dram.h(34,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\dram.h(26): message : 在编译 类 模板 成员函数“dram<sc_dt::sc_bv<256>>::dram(sc_core::sc_module_name,unsigned int,unsigned int,sc_core::sc_event *,Trace_event_queue *)”时
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\core_controller.cpp(46): message : 查看对正在编译的函数 模板 实例化“dram<sc_dt::sc_bv<256>>::dram(sc_core::sc_module_name,unsigned int,unsigned int,sc_core::sc_event *,Trace_event_queue *)”的引用
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CPooling.h(90,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CPooling.h(71): message : 在编译 类 模板 成员函数“void CPooling<sc_dt::sc_bv<256>>::pooling_prim_execution(void)”时
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CPooling.h(31): message : 查看对正在编译的函数 模板 实例化“void CPooling<sc_dt::sc_bv<256>>::pooling_prim_execution(void)”的引用
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\core_controller.cpp(90): message : 查看对正在编译的 类 模板 实例化“CPooling<sc_dt::sc_bv<256>>”的引用
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CPooling.h(91,115): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CPooling.h(91,30): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CPooling.h(93,115): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CPooling.h(93,30): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CConv2d.h(88,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CConv2d.h(68): message : 在编译 类 模板 成员函数“void CConv2d<sc_dt::sc_bv<256>>::conv2d_prim_execution(void)”时
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CConv2d.h(31): message : 查看对正在编译的函数 模板 实例化“void CConv2d<sc_dt::sc_bv<256>>::conv2d_prim_execution(void)”的引用
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\core_controller.cpp(83): message : 查看对正在编译的 类 模板 实例化“CConv2d<sc_dt::sc_bv<256>>”的引用
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CConv2d.h(90,115): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CConv2d.h(90,30): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CReLU.h(91,29): warning C4244: “=”: 从“unsigned int”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CReLU.h(70): message : 在编译 类 模板 成员函数“void CReLU<sc_dt::sc_bv<256>>::relu_prim_execution(void)”时
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CReLU.h(32): message : 查看对正在编译的函数 模板 实例化“void CReLU<sc_dt::sc_bv<256>>::relu_prim_execution(void)”的引用
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\core_controller.cpp(76): message : 查看对正在编译的 类 模板 实例化“CReLU<sc_dt::sc_bv<256>>”的引用
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CPooling.h(206,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CPooling.h(189): message : 在编译 类 模板 成员函数“void CPooling<sc_dt::sc_bv<256>>::maxpool_2d(int,int,int,std::vector<float,std::allocator<float>> &,int,int,std::vector<float,std::allocator<float>> &)”时
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CPooling.h(88): message : 查看对正在编译的函数 模板 实例化“void CPooling<sc_dt::sc_bv<256>>::maxpool_2d(int,int,int,std::vector<float,std::allocator<float>> &,int,int,std::vector<float,std::allocator<float>> &)”的引用
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CConv2d.h(202,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CConv2d.h(179): message : 在编译 类 模板 成员函数“void CConv2d<sc_dt::sc_bv<256>>::conv_2d(int,int,int,std::vector<float,std::allocator<float>> &,std::vector<float,std::allocator<float>> &,int,int,int,std::vector<float,std::allocator<float>> &)”时
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\CConv2d.h(87): message : 查看对正在编译的函数 模板 实例化“void CConv2d<sc_dt::sc_bv<256>>::conv_2d(int,int,int,std::vector<float,std::allocator<float>> &,std::vector<float,std::allocator<float>> &,int,int,int,std::vector<float,std::allocator<float>> &)”的引用
+C:\Users\14900\Desktop\1\chip_simulator\libs\systemc-2.3.3\src\sysc\datatypes\bit\sc_proxy.h(869,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\14900\Desktop\1\chip_simulator\libs\systemc-2.3.3\src\sysc\datatypes\bit\sc_proxy.h(865): message : 在编译 类 模板 成员函数“X &sc_dt::sc_proxy<X>::assign_(const char *)”时
+          with
+          [
+              X=sc_dt::sc_subref_r<sc_dt::sc_bv_base>
+          ]
+C:\Users\14900\Desktop\1\chip_simulator\libs\systemc-2.3.3\src\sysc\datatypes\bit\sc_bit_proxies.h(1038): message : 查看对正在编译的函数 模板 实例化“X &sc_dt::sc_proxy<X>::assign_(const char *)”的引用
+          with
+          [
+              X=sc_dt::sc_subref_r<sc_dt::sc_bv_base>
+          ]
+C:\Users\14900\Desktop\1\chip_simulator\libs\systemc-2.3.3\src\sysc\datatypes\bit\sc_bit_proxies.h(672): message : 查看对正在编译的 类 模板 实例化“sc_dt::sc_proxy<sc_dt::sc_subref_r<X>>”的引用
+          with
+          [
+              X=sc_dt::sc_bv_base
+          ]
+C:\Users\14900\Desktop\1\chip_simulator\libs\systemc-2.3.3\src\sysc\datatypes\bit\sc_bit_proxies.h(1000): message : 查看对正在编译的 类 模板 实例化“sc_dt::sc_subref_r<X>”的引用
+          with
+          [
+              X=sc_dt::sc_bv_base
+          ]
+C:\Users\14900\Desktop\1\chip_simulator\chip_simulator\Prim.h(33): message : 查看对正在编译的 类 模板 实例化“sc_dt::sc_subref<X>”的引用
+          with
+          [
+              X=sc_dt::sc_bv_base
+          ]
+  chip_simulator.vcxproj -> C:\Users\14900\Desktop\1\chip_simulator\x64\Debug\chip_simulator.exe
