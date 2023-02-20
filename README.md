@@ -23,7 +23,7 @@
 
 
 
-#1.文件说明
+## 文件说明
  1. chip_simulator文件夹里是源码，包含了添加矩阵乘,relu，conv,pooling，memristor的内容
  2. 指令集V1.xlsx里是指令集
  3. conv和fc是权重数据
